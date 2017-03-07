@@ -17,7 +17,8 @@ var formData = {
   'build' : yargs.build,
   'package' : yargs.package,
   'bundle': yargs.bundle,
-  'file': fs.createReadStream(yargs.ipapath)
+  'file': fs.createReadStream(yargs.ipapath),
+  'name': yargs.name
 };
 
 request.post({url:server + '/' + yargs.bundle + '/upload', formData: formData}, function optionalCallback(err, httpResponse, body) {

@@ -39,5 +39,5 @@ There is an example of a .ipa upload script in `client/` which can be used to au
 example use:
 
 ```
-node upload.js --version="1.0" --build="1" --package="1.0.1" --bundle="com.example.testApp" --ipapath="path to ipa file"
+node upload.js --version="1.0" --build="1" --package="1.0.1" --bundle="com.example.testApp" --name="My App" --ipapath="path to ipa file"
 ```
