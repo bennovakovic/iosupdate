@@ -1,0 +1,30 @@
+{
+  "name": "iosupdate",
+  "version": "1.0.0",
+  "description": "Node app for over-the-air ios app updates",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennovakovic/iosupdate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bennovakovic/iosupdate/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "connect-busboy": "0.0.2",
+    "express": "^4.14.0",
+    "extend": "^3.0.0",
+    "mv": "^2.1.1",
+    "request": "^2.79.0",
+    "swig": "^1.4.2"
+  },
+  "homepage": "https://github.com/bennovakovic/iosupdate#readme"
+}
