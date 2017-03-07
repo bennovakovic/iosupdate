@@ -64,7 +64,7 @@ function opsapp(app, settings){
         filename: getBuildUrl(data.bundle, name, data.build),
         version: data.version,
         build: data.build,
-        name: name
+        name: data.name
       });
     });
   });
